@@ -47,7 +47,7 @@ function addProductToList(name, price) {
   productList.appendChild(product);
 }
 
-// Helper function to save the products to local storage
+// Help function to save the products to local storage
 function saveProductsToLocalStorage() {
   localStorage.setItem('products', JSON.stringify(products));
 }
